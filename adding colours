@@ -1,0 +1,14 @@
+print("====Your Adventure Simulator====")
+print("""You will be asked a bunch of questions 
+then we make you an amazing story with YOU as the star!😍""")
+print()
+name = input("Your name: ")
+enemy = input("Your enemy: ")
+superpower = input("Your superpower: ")
+print("Our story begins as our", "\033[30m", name, "\033[0m",
+      "approaches a foreboding castle")
+print("Suddenly a bolt of lightning striked the ground at the feet of",
+      "\033[34m", name, "\033[0m")
+print("Our final battle begins! shouts the evil", enemy,
+      "clearly missing the fact that", name, "\033[33m", "has the power of",
+      "\033[0m", superpower, "which means they will win quite easily.")
