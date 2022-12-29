@@ -1,0 +1,14 @@
+print ("""MY LOGIN SYSTEM
++++++++++++++++++++++++++""")
+username= input("Username: ")
+password= input("Password: ")
+if username=="diz" and password=="d1zz1":
+  print("Well hello there Diz, what a lovely accent you have, you could have charmed your way in here without a password.")
+  print("Have a great day.")
+elif username== "archy" and password=="archy":
+  print("Howdy Archy, Good morning to you, hope you have a great day")
+elif username== "zeus" and password=="zeusseusu":
+  print("Hail God Zeus, this is your empire")
+else:
+  print("Invalid credentials, try again!")
+  
