@@ -1,0 +1,6 @@
+myname= input("Enter your name: ")
+if myname== "Diz":
+  print("Hi Champ")
+  print("Hope you have a great day!🥰")
+else:
+  print("User unrecognized, Waiting for Admin.")
