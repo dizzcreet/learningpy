@@ -1,0 +1,20 @@
+print("Fake Fan Generator!🕵️‍♀️")
+favanime= input("What is your Favourite Anime?")
+if favanime==("haikyuu"):
+  print("Wow!")
+  char= input("Who is your favourite character?: ")
+  if char ==("Kenma or kenma"):
+    print("Really?")
+  elif char==("kageyama"):
+    print("u sure love having an attitude")
+  elif char==("hinata"):
+    print("hmm the usual favourite...")
+  q1= input("which team was bokuto in?: ")
+  if q1==("fukurodani"):
+    print("true fan")
+  else:
+    print("false fan")
+elif favanime==("mha"):
+    print("okay")
+else:
+  print("great choice")
