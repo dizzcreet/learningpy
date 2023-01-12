@@ -1,0 +1,7 @@
+while True:
+  print("This loop is still running")
+  goagain=input("Do u want to continue?:")
+  if goagain=="no" or goagain=="No":
+    break
+print("aww i was having a great time")
+    
