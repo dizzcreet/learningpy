@@ -1,0 +1,12 @@
+while True:
+  print("You are in a corridor do u wish to turn left or right?")
+  direction= input(">")
+  if direction=="left":
+    print("end")
+    break
+  elif direction=="right":
+    continue
+  else:
+    print("u have escaped")
+    exit()
+print("game over")
